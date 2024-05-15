@@ -1,0 +1,21 @@
+package: build/libs/*.jar
+ 
+---
+profiles: dev
+ 
+---
+profiles: tst
+ 
+---
+profiles: prod
+ 
+---
+# Defaults
+ 
+stages:
+
+       
+ 
+  build:
+    - gradle  build  -x test
+

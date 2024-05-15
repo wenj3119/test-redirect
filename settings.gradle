@@ -1,0 +1,7 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        maven { url 'https://maven.xpaas.lenovo.com/nexus/repository/gradle-plugins-public/' }
+    }
+}
+rootProject.name = 'test-redirect'
